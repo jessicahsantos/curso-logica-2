@@ -33,6 +33,7 @@ let raquetada;
 let ponto;
 let trilha;
 
+
 function preload(){
   trilha = loadSound("trilha.mp3");
   ponto = loadSound("ponto.mp3");
@@ -129,9 +130,8 @@ function movimentaMinhaRaquete() {
    
 
  function movimentaRaqueteOponente() { 
-   velocidadeYOponente = yBolinha - yRaqueteOponente - 
-   raqueteComprimento / 2 -30;
-   yRaqueteOponente += velocidadeYOponente
+   velocidadeYOponente = yBolinha- yRaqueteOponente - raqueteComprimento 
+   / 2 -30;
    
  }
 
@@ -160,5 +160,7 @@ function marcaPonto() {
     ponto.play();
   }  
 }
+
+
  
 
