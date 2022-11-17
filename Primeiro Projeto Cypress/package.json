@@ -1,0 +1,14 @@
+{
+  "name": "curso-cypress",
+  "version": "1.0.0",
+  "description": "primeito projeto com cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Jéssica",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "9.1.1"
+  }
+}

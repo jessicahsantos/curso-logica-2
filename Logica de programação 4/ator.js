@@ -29,6 +29,7 @@ function verificaColisao(){
       if (pontosMaiorQueZero()){
         meusPontos -= 1;
       }
+      else (pontosMenorQueZero())
     }
   }
 }
@@ -55,10 +56,18 @@ function marcaPonto(){
 function pontosMaiorQueZero(){
   return meusPontos > 0;
 }
+function pontosMenorQueZero(){
+ 
+  if(meusPontos <= 0) {
+   alert ("Fim de Jogo");
+
+  }
+}
 
 function podeSeMover(){
   return yAtor < 366;
 }
+
 
 
 
