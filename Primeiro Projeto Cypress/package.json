@@ -4,7 +4,8 @@
   "description": "primeito projeto com cypress",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test": "npx cypress open",
+    "cypress:install": "npx cypress install"
   },
   "author": "Jéssica",
   "license": "ISC",
